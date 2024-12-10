@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(172, 166, 166);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section > h1 {
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(165, 65, 65);
+}
+
+table {
+  margin-top: 35px;
+  font-size: 1.2em;
+}
+
+table > caption {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 10px;
+  border: solid 1px;
+  text-align: center;
+  background-color: rgb(171, 171, 236);
+}
+
+table > tfoot {
+  font-style: italic;
+  font-weight: 700;
+}
